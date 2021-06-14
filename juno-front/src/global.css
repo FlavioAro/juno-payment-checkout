@@ -1,0 +1,83 @@
+* {
+    outline: none !important;
+}
+
+a, a:hover {
+    text-decoration: none !important;
+    color: inherit !important;
+}
+
+a * {
+    cursor: pointer !important;
+}
+
+body {
+    background-color: #eee !important;
+}
+
+svg {
+    flex-shrink: 0;
+}
+
+.pointer, .pointer * {
+    cursor: pointer;
+}
+
+.label-custom {
+    color: #2c2c31;
+    font-weight: 600;
+    font-family: "Open Sans",sans-serif;
+    margin-bottom: 8px;
+}
+
+.card {
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(153, 153, 153, 0.2) 0px 2px 4px 0px;
+    border-radius: 3px;
+    border: none;
+}
+
+.header {
+    border-bottom: 2px solid rgb(229,229,299);
+}
+
+.header .nav-link {
+    font-weight: 600;
+    color: #555 !important;
+    padding: 28px 1.5rem !important;
+    border: 0;
+    border-bottom: 2px solid transparent;
+}
+
+.header .nav-link:hover {
+    border-bottom: 2px solid #1976d2;
+}
+
+.header .nav-link .icon-lg {
+    font-size: 22px;
+}
+
+.badge-cart {
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+
+.product-img svg {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.product-img-small svg {
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.btn-checkout, .btn-checkout:hover {
+    color: #fff !important
+}
+
+.modal-cart .MuiDialog-paper {
+    background-color: #eee;
+    padding-top: 64px;
+}
